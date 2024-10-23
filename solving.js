@@ -38,7 +38,7 @@ let result;
 let check = false;
 
 const elementA = document.getElementById("a");
-elementA.addEventListener('input', verify);
+elementA.addEventListener('keyup', verify);
 
 const elementB = document.getElementById("b");
 elementB.addEventListener('keyup', verify);
